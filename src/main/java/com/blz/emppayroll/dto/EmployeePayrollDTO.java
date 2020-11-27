@@ -1,8 +1,8 @@
 package com.blz.emppayroll.dto;
 
 public class EmployeePayrollDTO {
-	private String name;
-	private long salary;
+	public String name;
+	public long salary;
 
 	public EmployeePayrollDTO(String name, long salary) {
 		super();
