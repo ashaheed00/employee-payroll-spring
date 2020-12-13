@@ -1,29 +1,45 @@
 package com.blz.emppayroll.model;
 
-import java.util.Date;
+import java.util.List;
 
-import com.blz.emppayroll.dto.EmployeePayrollDTO;
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
 
+@Entity
+@Table(name = "employee")
 public class EmployeePayroll {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
+
 	private String name;
-	private String[] departMent;
+
+	@ManyToMany(cascade = CascadeType.PERSIST)
+	private List<Department> departMent;
 	private String gender;
 	private long salary;
 	private String startDate;
 	private String profileUrl;
 	private String notes;
 
-	public EmployeePayroll(long id, EmployeePayrollDTO employeePayrollDTO) {
-		this.id = new Date().getTime();
-//		this.id = id;
-		this.name = employeePayrollDTO.name;
-		this.departMent = employeePayrollDTO.departMent;
-		this.gender = employeePayrollDTO.gender;
-		this.salary = employeePayrollDTO.salary;
-		this.startDate = employeePayrollDTO.startDate;
-		this.profileUrl = employeePayrollDTO.profileUrl;
-		this.notes = employeePayrollDTO.notes;
+	public EmployeePayroll() {
+	}
+
+	public EmployeePayroll(String name, List<Department> departMent, String gender, long salary, String startDate,
+			String profileUrl, String notes) {
+		this.name = name;
+		this.departMent = departMent;
+		this.gender = gender;
+		this.salary = salary;
+		this.startDate = startDate;
+		this.profileUrl = profileUrl;
+		this.notes = notes;
 	}
 
 	public long getId() {
@@ -50,11 +66,11 @@ public class EmployeePayroll {
 		this.salary = salary;
 	}
 
-	public String[] getDepartMent() {
+	public List<Department> getDepartMent() {
 		return departMent;
 	}
 
-	public void setDepartMent(String[] departMent) {
+	public void setDepartMent(List<Department> departMent) {
 		this.departMent = departMent;
 	}
 
@@ -89,39 +105,5 @@ public class EmployeePayroll {
 	public void setNotes(String notes) {
 		this.notes = notes;
 	}
-
-//	private int employeeId;
-//	private String name;
-//	private long salary;
-//
-//	public EmployeePayroll(int employeeId, EmployeePayrollDTO empPayrollDTO) {
-//		this.employeeId = employeeId;
-//		this.name = empPayrollDTO.name;
-//		this.salary = empPayrollDTO.salary;
-//	}
-//
-//	public int getEmployeeId() {
-//		return employeeId;
-//	}
-//
-//	public void setEmployeeId(int employeeId) {
-//		this.employeeId = employeeId;
-//	}
-//
-//	public String getName() {
-//		return name;
-//	}
-//
-//	public void setName(String name) {
-//		this.name = name;
-//	}
-//
-//	public long getSalary() {
-//		return salary;
-//	}
-//
-//	public void setSalary(long salary) {
-//		this.salary = salary;
-//	}
 
 }
