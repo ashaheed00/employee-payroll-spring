@@ -3,6 +3,8 @@ package com.blz.emppayroll.controller;
 import java.time.LocalDateTime;
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -18,7 +20,7 @@ import com.blz.emppayroll.model.EmployeePayroll;
 import com.blz.emppayroll.service.EmailService;
 import com.blz.emppayroll.service.IEmployeePayrollService;
 
-@CrossOrigin(origins = "http://localhost:3000/home")
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 public class EmployeePayrollController {
 
@@ -42,7 +44,7 @@ public class EmployeePayrollController {
 
 	@PutMapping("/update/{empId}")
 	public EmployeePayroll updateEmployeePayrollData(@PathVariable("empId") int empId,
-			@RequestBody EmployeePayroll empPayroll) {
+			@Valid @RequestBody EmployeePayroll empPayroll) {
 		return employeePayrollService.updateEmployeePayrollData(empId, empPayroll);
 	}
 

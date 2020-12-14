@@ -9,101 +9,33 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.Pattern;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name = "employee")
-public class EmployeePayroll {
+public @Data @NoArgsConstructor class EmployeePayroll {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 
+	@Pattern(regexp = "^[A-Z]{1}[a-z]{2,}\\s?([A-Z]{1}[a-z]{1,}\\s?){0,2}$", message = "Please enter correct name in correct format. Eg. John Smith")
 	private String name;
 
 	@ManyToMany(cascade = CascadeType.PERSIST)
 	private List<Department> departMent;
+
 	private String gender;
+
+	@Min(value = 1000, message = "Min. required Salary is 1000")
 	private long salary;
+
 	private String startDate;
 	private String profileUrl;
 	private String notes;
-
-	public EmployeePayroll() {
-	}
-
-	public EmployeePayroll(String name, List<Department> departMent, String gender, long salary, String startDate,
-			String profileUrl, String notes) {
-		this.name = name;
-		this.departMent = departMent;
-		this.gender = gender;
-		this.salary = salary;
-		this.startDate = startDate;
-		this.profileUrl = profileUrl;
-		this.notes = notes;
-	}
-
-	public long getId() {
-		return id;
-	}
-
-	public void setId(long id) {
-		this.id = id;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public long getSalary() {
-		return salary;
-	}
-
-	public void setSalary(long salary) {
-		this.salary = salary;
-	}
-
-	public List<Department> getDepartMent() {
-		return departMent;
-	}
-
-	public void setDepartMent(List<Department> departMent) {
-		this.departMent = departMent;
-	}
-
-	public String getGender() {
-		return gender;
-	}
-
-	public void setGender(String gender) {
-		this.gender = gender;
-	}
-
-	public String getStartDate() {
-		return startDate;
-	}
-
-	public void setStartDate(String startDate) {
-		this.startDate = startDate;
-	}
-
-	public String getProfileUrl() {
-		return profileUrl;
-	}
-
-	public void setProfileUrl(String profileUrl) {
-		this.profileUrl = profileUrl;
-	}
-
-	public String getNotes() {
-		return notes;
-	}
-
-	public void setNotes(String notes) {
-		this.notes = notes;
-	}
 
 }

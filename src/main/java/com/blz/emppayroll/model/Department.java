@@ -3,20 +3,13 @@ package com.blz.emppayroll.model;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 @Entity
-public class Department {
+public @Data @NoArgsConstructor class Department {
+
 	@Id
 	private String departmentName;
-
-	public Department() {
-	}
-
-	public String getDepartmentName() {
-		return departmentName;
-	}
-
-	public void setDepartmentName(String departmentName) {
-		this.departmentName = departmentName;
-	}
 
 }
