@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.blz.emppayroll.exception.EmployeePayrollException;
 import com.blz.emppayroll.model.EmployeePayroll;
 import com.blz.emppayroll.repository.EmployeePayrollRepository;
 
@@ -24,6 +25,8 @@ public @Slf4j class EmployeePayrollService implements IEmployeePayrollService {
 
 	@Override
 	public EmployeePayroll getEmployeePayrollDataById(int empId) {
+		if (!employeePayrollRepository.existsById((long) empId))
+			throw new EmployeePayrollException("No employee found with id: " + empId);
 		log.info("Employee Payroll data fetched with empId: " + empId);
 		return employeePayrollRepository.findById((long) empId).orElse(null);
 	}
@@ -35,6 +38,8 @@ public @Slf4j class EmployeePayrollService implements IEmployeePayrollService {
 
 	@Override
 	public EmployeePayroll updateEmployeePayrollData(int empId, EmployeePayroll empPayroll) {
+		if (!employeePayrollRepository.existsById((long) empId))
+			throw new EmployeePayrollException("No employee found with id: " + empId);
 		empPayroll.setId(empId);
 		log.info("Employee Payroll data updated with empId: " + empId);
 		return employeePayrollRepository.save(empPayroll);
@@ -42,8 +47,10 @@ public @Slf4j class EmployeePayrollService implements IEmployeePayrollService {
 
 	@Override
 	public void deleteEmployeePayrollData(int empId) {
+		if (!employeePayrollRepository.existsById((long) empId))
+			throw new EmployeePayrollException("No employee found with id: " + empId);
 		employeePayrollRepository.deleteById((long) empId);
-		log.info("Employee Payroll data fetched with empId: " + empId);
+		log.info("Employee Payroll data deleted with empId: " + empId);
 	}
 
 }

@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import com.blz.emppayroll.dto.ResponseDTO;
+import com.blz.emppayroll.exception.EmployeePayrollException;
 
 @ControllerAdvice
 public class EmployeePayrollExceptionHandler {
@@ -21,6 +22,12 @@ public class EmployeePayrollExceptionHandler {
 		List<String> errorMessageList = errorList.stream().map(errObj -> errObj.getDefaultMessage())
 				.collect(Collectors.toList());
 		ResponseDTO responseDTO = new ResponseDTO("Validation Exceptions", errorMessageList);
+		return new ResponseEntity<ResponseDTO>(responseDTO, HttpStatus.BAD_REQUEST);
+	}
+
+	@ExceptionHandler(EmployeePayrollException.class)
+	public ResponseEntity<ResponseDTO> handlEmployeePayrollException(EmployeePayrollException exception) {
+		ResponseDTO responseDTO = new ResponseDTO("REST call exceptions", exception.getMessage());
 		return new ResponseEntity<ResponseDTO>(responseDTO, HttpStatus.BAD_REQUEST);
 	}
 

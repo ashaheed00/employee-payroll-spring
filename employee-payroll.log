@@ -74,3 +74,1897 @@
 				HikariPool-1 - Shutdown initiated...
 [2020-12-14T19:25:10.010Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(16)-127.0.0.1] [352] [INFO ]
 				HikariPool-1 - Shutdown completed.
+[2020-12-14T19:59:25.025Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ]
+				HV000001: Hibernate Validator 6.1.6.Final
+[2020-12-14T19:59:25.025Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ]
+				Starting EmpPayrollWebAppApplication using Java 15 on DESKTOP-FR81GBB with PID 17464 (C:\Users\user\workspace-sts\EmpPayrollWebApp\target\classes started by user in C:\Users\user\workspace-sts\EmpPayrollWebApp)
+[2020-12-14T19:59:25.025Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-12-14T19:59:25.025Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ]
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-14T19:59:25.025Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ]
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-14T19:59:26.026Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-14T19:59:26.026Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ]
+				Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interfaces.
+[2020-12-14T19:59:27.027Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-12-14T19:59:27.027Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-14T19:59:27.027Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-12-14T19:59:27.027Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-14T19:59:28.028Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-12-14T19:59:28.028Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ]
+				Root WebApplicationContext: initialization completed in 2829 ms
+[2020-12-14T19:59:28.028Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-14T19:59:28.028Z] [org.hibernate.Version] [restartedMain] [44] [INFO ]
+				HHH000412: Hibernate ORM core version 5.4.23.Final
+[2020-12-14T19:59:28.028Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ]
+				HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2020-12-14T19:59:28.028Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ]
+				HikariPool-1 - Starting...
+[2020-12-14T19:59:29.029Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ]
+				HikariPool-1 - Start completed.
+[2020-12-14T19:59:29.029Z] [org.hibernate.dialect.Dialect] [restartedMain] [170] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-14T19:59:30.030Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-14T19:59:31.031Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [434] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T19:59:31.031Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ]
+				LiveReload server is running on port 35729
+[2020-12-14T19:59:31.031Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ]
+				Initializing ExecutorService 'threadExecutor'
+[2020-12-14T19:59:31.031Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-14T19:59:31.031Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-14T19:59:31.031Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-14T19:59:31.031Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-12-14T19:59:32.032Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ]
+				Spring Data repositories initialized!
+[2020-12-14T19:59:32.032Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ]
+				Started EmpPayrollWebAppApplication in 7.686 seconds (JVM running for 9.544)
+[2020-12-14T19:59:41.041Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-14T19:59:41.041Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-12-14T19:59:41.041Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ]
+				Completed initialization in 2 ms
+[2020-12-14T19:59:41.041Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-2] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public com.blz.emppayroll.model.EmployeePayroll com.blz.emppayroll.controller.EmployeePayrollController.updateEmployeePayrollData(int,com.blz.emppayroll.model.EmployeePayroll) with 2 errors: [Field error in object 'employeePayroll' on field 'salary': rejected value [50]; codes [Min.employeePayroll.salary,Min.salary,Min.long,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.salary,salary]; arguments []; default message [salary],1000]; default message [Min. required Salary is 1000]] [Field error in object 'employeePayroll' on field 'name': rejected value [Su]; codes [Pattern.employeePayroll.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@17f18ac0,^[A-Z]{1}[a-z]{2,}\s?([A-Z]{1}[a-z]{1,}\s?){0,2}$]; default message [Please enter correct name in correct format. Eg. John Smith]] ]
+[2020-12-14T19:59:57.057Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-3] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public com.blz.emppayroll.model.EmployeePayroll com.blz.emppayroll.controller.EmployeePayrollController.updateEmployeePayrollData(int,com.blz.emppayroll.model.EmployeePayroll) with 2 errors: [Field error in object 'employeePayroll' on field 'name': rejected value [Su]; codes [Pattern.employeePayroll.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@17f18ac0,^[A-Z]{1}[a-z]{2,}\s?([A-Z]{1}[a-z]{1,}\s?){0,2}$]; default message [Please enter correct name in correct format. Eg. John Smith]] [Field error in object 'employeePayroll' on field 'salary': rejected value [50]; codes [Min.employeePayroll.salary,Min.salary,Min.long,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.salary,salary]; arguments []; default message [salary],1000]; default message [Min. required Salary is 1000]] ]
+[2020-12-14T20:00:39.039Z] [com.blz.emppayroll.controller.EmployeePayrollController] [http-nio-8080-exec-5] [48] [INFO ]
+				Requesting to ADD employee payroll data with name Last
+[2020-12-14T20:00:39.039Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-5] [175] [ERROR]
+				Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.ConstraintViolationException: Validation failed for classes [com.blz.emppayroll.model.EmployeePayroll] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='Min. required Salary is 1000', propertyPath=salary, rootBeanClass=class com.blz.emppayroll.model.EmployeePayroll, messageTemplate='Min. required Salary is 1000'}
+]] with root cause
+javax.validation.ConstraintViolationException: Validation failed for classes [com.blz.emppayroll.model.EmployeePayroll] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='Min. required Salary is 1000', propertyPath=salary, rootBeanClass=class com.blz.emppayroll.model.EmployeePayroll, messageTemplate='Min. required Salary is 1000'}
+]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.validate(BeanValidationEventListener.java:140)
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.onPreInsert(BeanValidationEventListener.java:80)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.preInsert(EntityIdentityInsertAction.java:203)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:78)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:330)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:287)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:193)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:123)
+	at org.hibernate.event.internal.DefaultMergeEventListener.saveTransientEntity(DefaultMergeEventListener.java:271)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:243)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:318)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:172)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:70)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:793)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:780)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at com.sun.proxy.$Proxy101.merge(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311)
+	at com.sun.proxy.$Proxy101.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:560)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:524)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:531)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:156)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:131)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:134)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy104.save(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208)
+	at com.sun.proxy.$Proxy92.save(Unknown Source)
+	at com.blz.emppayroll.service.EmployeePayrollService.createEmployeePayrollData(EmployeePayrollService.java:33)
+	at com.blz.emppayroll.controller.EmployeePayrollController.createEmployee(EmployeePayrollController.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[2020-12-14T20:00:53.053Z] [com.blz.emppayroll.controller.EmployeePayrollController] [http-nio-8080-exec-7] [48] [INFO ]
+				Requesting to ADD employee payroll data with name Last
+[2020-12-14T20:00:53.053Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-7] [175] [ERROR]
+				Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.ConstraintViolationException: Validation failed for classes [com.blz.emppayroll.model.EmployeePayroll] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='Min. required Salary is 1000', propertyPath=salary, rootBeanClass=class com.blz.emppayroll.model.EmployeePayroll, messageTemplate='Min. required Salary is 1000'}
+]] with root cause
+javax.validation.ConstraintViolationException: Validation failed for classes [com.blz.emppayroll.model.EmployeePayroll] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='Min. required Salary is 1000', propertyPath=salary, rootBeanClass=class com.blz.emppayroll.model.EmployeePayroll, messageTemplate='Min. required Salary is 1000'}
+]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.validate(BeanValidationEventListener.java:140)
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.onPreInsert(BeanValidationEventListener.java:80)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.preInsert(EntityIdentityInsertAction.java:203)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:78)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:330)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:287)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:193)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:123)
+	at org.hibernate.event.internal.DefaultMergeEventListener.saveTransientEntity(DefaultMergeEventListener.java:271)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:243)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:318)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:172)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:70)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:793)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:780)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at com.sun.proxy.$Proxy101.merge(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311)
+	at com.sun.proxy.$Proxy101.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:560)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:524)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:531)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:156)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:131)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:134)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy104.save(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208)
+	at com.sun.proxy.$Proxy92.save(Unknown Source)
+	at com.blz.emppayroll.service.EmployeePayrollService.createEmployeePayrollData(EmployeePayrollService.java:33)
+	at com.blz.emppayroll.controller.EmployeePayrollController.createEmployee(EmployeePayrollController.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[2020-12-14T20:01:36.036Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-10] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public com.blz.emppayroll.model.EmployeePayroll com.blz.emppayroll.controller.EmployeePayrollController.updateEmployeePayrollData(int,com.blz.emppayroll.model.EmployeePayroll) with 2 errors: [Field error in object 'employeePayroll' on field 'name': rejected value [Su]; codes [Pattern.employeePayroll.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@17f18ac0,^[A-Z]{1}[a-z]{2,}\s?([A-Z]{1}[a-z]{1,}\s?){0,2}$]; default message [Please enter correct name in correct format. Eg. John Smith]] [Field error in object 'employeePayroll' on field 'salary': rejected value [50]; codes [Min.employeePayroll.salary,Min.salary,Min.long,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.salary,salary]; arguments []; default message [salary],1000]; default message [Min. required Salary is 1000]] ]
+[2020-12-14T20:02:35.035Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-4] [218] [INFO ]
+				Shutting down ExecutorService 'threadExecutor'
+[2020-12-14T20:02:35.035Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-4] [648] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:02:35.035Z] [com.zaxxer.hikari.HikariDataSource] [Thread-4] [350] [INFO ]
+				HikariPool-1 - Shutdown initiated...
+[2020-12-14T20:02:35.035Z] [com.zaxxer.hikari.HikariDataSource] [Thread-4] [352] [INFO ]
+				HikariPool-1 - Shutdown completed.
+[2020-12-14T20:02:36.036Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ]
+				Starting EmpPayrollWebAppApplication using Java 15 on DESKTOP-FR81GBB with PID 17464 (C:\Users\user\workspace-sts\EmpPayrollWebApp\target\classes started by user in C:\Users\user\workspace-sts\EmpPayrollWebApp)
+[2020-12-14T20:02:36.036Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-12-14T20:02:36.036Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-14T20:02:36.036Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ]
+				Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+[2020-12-14T20:02:36.036Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-12-14T20:02:36.036Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:02:36.036Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-12-14T20:02:36.036Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-14T20:02:36.036Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-12-14T20:02:36.036Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ]
+				Root WebApplicationContext: initialization completed in 766 ms
+[2020-12-14T20:02:36.036Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-14T20:02:36.036Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ]
+				HikariPool-2 - Starting...
+[2020-12-14T20:02:36.036Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ]
+				HikariPool-2 - Start completed.
+[2020-12-14T20:02:36.036Z] [org.hibernate.dialect.Dialect] [restartedMain] [170] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-14T20:02:37.037Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-14T20:02:37.037Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [434] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:02:37.037Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ]
+				LiveReload server is running on port 35729
+[2020-12-14T20:02:37.037Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ]
+				Initializing ExecutorService 'threadExecutor'
+[2020-12-14T20:02:37.037Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-14T20:02:37.037Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:02:37.037Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-14T20:02:37.037Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-12-14T20:02:37.037Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ]
+				Spring Data repositories initialized!
+[2020-12-14T20:02:37.037Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ]
+				Started EmpPayrollWebAppApplication in 1.786 seconds (JVM running for 194.955)
+[2020-12-14T20:02:37.037Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ]
+				Condition evaluation unchanged
+[2020-12-14T20:02:41.041Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-14T20:02:41.041Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-12-14T20:02:41.041Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ]
+				Completed initialization in 3 ms
+[2020-12-14T20:02:41.041Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-2] [207] [WARN ]
+				Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[2020-12-14T20:02:45.045Z] [com.blz.emppayroll.controller.EmployeePayrollController] [http-nio-8080-exec-3] [48] [INFO ]
+				Requesting to ADD employee payroll data with name Last
+[2020-12-14T20:02:45.045Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-3] [175] [ERROR]
+				Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.validation.ConstraintViolationException: Validation failed for classes [com.blz.emppayroll.model.EmployeePayroll] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='Min. required Salary is 1000', propertyPath=salary, rootBeanClass=class com.blz.emppayroll.model.EmployeePayroll, messageTemplate='Min. required Salary is 1000'}
+]] with root cause
+javax.validation.ConstraintViolationException: Validation failed for classes [com.blz.emppayroll.model.EmployeePayroll] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='Min. required Salary is 1000', propertyPath=salary, rootBeanClass=class com.blz.emppayroll.model.EmployeePayroll, messageTemplate='Min. required Salary is 1000'}
+]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.validate(BeanValidationEventListener.java:140)
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.onPreInsert(BeanValidationEventListener.java:80)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.preInsert(EntityIdentityInsertAction.java:203)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:78)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:645)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:282)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:317)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:330)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:287)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:193)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:123)
+	at org.hibernate.event.internal.DefaultMergeEventListener.saveTransientEntity(DefaultMergeEventListener.java:271)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:243)
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:318)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:172)
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:70)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:102)
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:793)
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:780)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362)
+	at com.sun.proxy.$Proxy113.merge(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311)
+	at com.sun.proxy.$Proxy113.merge(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:560)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:524)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:531)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:156)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:131)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:134)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy115.save(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208)
+	at com.sun.proxy.$Proxy112.save(Unknown Source)
+	at com.blz.emppayroll.service.EmployeePayrollService.createEmployeePayrollData(EmployeePayrollService.java:33)
+	at com.blz.emppayroll.controller.EmployeePayrollController.createEmployee(EmployeePayrollController.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[2020-12-14T20:03:29.029Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-8] [218] [INFO ]
+				Shutting down ExecutorService 'threadExecutor'
+[2020-12-14T20:03:29.029Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-8] [648] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:03:29.029Z] [com.zaxxer.hikari.HikariDataSource] [Thread-8] [350] [INFO ]
+				HikariPool-2 - Shutdown initiated...
+[2020-12-14T20:03:29.029Z] [com.zaxxer.hikari.HikariDataSource] [Thread-8] [352] [INFO ]
+				HikariPool-2 - Shutdown completed.
+[2020-12-14T20:03:30.030Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ]
+				Starting EmpPayrollWebAppApplication using Java 15 on DESKTOP-FR81GBB with PID 17464 (C:\Users\user\workspace-sts\EmpPayrollWebApp\target\classes started by user in C:\Users\user\workspace-sts\EmpPayrollWebApp)
+[2020-12-14T20:03:30.030Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-12-14T20:03:30.030Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-14T20:03:30.030Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ]
+				Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+[2020-12-14T20:03:30.030Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-12-14T20:03:30.030Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:03:30.030Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-12-14T20:03:30.030Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-14T20:03:30.030Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-12-14T20:03:30.030Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ]
+				Root WebApplicationContext: initialization completed in 614 ms
+[2020-12-14T20:03:30.030Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-14T20:03:30.030Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ]
+				HikariPool-3 - Starting...
+[2020-12-14T20:03:30.030Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ]
+				HikariPool-3 - Start completed.
+[2020-12-14T20:03:30.030Z] [org.hibernate.dialect.Dialect] [restartedMain] [170] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-14T20:03:31.031Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-14T20:03:31.031Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [434] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:03:31.031Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ]
+				LiveReload server is running on port 35729
+[2020-12-14T20:03:31.031Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ]
+				Initializing ExecutorService 'threadExecutor'
+[2020-12-14T20:03:31.031Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-14T20:03:31.031Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:03:31.031Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-14T20:03:31.031Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-12-14T20:03:31.031Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ]
+				Spring Data repositories initialized!
+[2020-12-14T20:03:31.031Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ]
+				Started EmpPayrollWebAppApplication in 1.643 seconds (JVM running for 248.985)
+[2020-12-14T20:03:31.031Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ]
+				Condition evaluation unchanged
+[2020-12-14T20:03:35.035Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-14T20:03:35.035Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-12-14T20:03:35.035Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ]
+				Completed initialization in 1 ms
+[2020-12-14T20:03:35.035Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-1] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.blz.emppayroll.model.EmployeePayroll com.blz.emppayroll.controller.EmployeePayrollController.createEmployee(com.blz.emppayroll.model.EmployeePayroll): [Field error in object 'employeePayroll' on field 'salary': rejected value [600]; codes [Min.employeePayroll.salary,Min.salary,Min.long,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.salary,salary]; arguments []; default message [salary],1000]; default message [Min. required Salary is 1000]] ]
+[2020-12-14T20:03:45.045Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-3] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.blz.emppayroll.model.EmployeePayroll com.blz.emppayroll.controller.EmployeePayrollController.createEmployee(com.blz.emppayroll.model.EmployeePayroll): [Field error in object 'employeePayroll' on field 'salary': rejected value [600]; codes [Min.employeePayroll.salary,Min.salary,Min.long,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.salary,salary]; arguments []; default message [salary],1000]; default message [Min. required Salary is 1000]] ]
+[2020-12-14T20:03:50.050Z] [com.blz.emppayroll.controller.EmployeePayrollController] [http-nio-8080-exec-6] [48] [INFO ]
+				Requesting to ADD employee payroll data with name Last
+[2020-12-14T20:03:50.050Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-6] [207] [WARN ]
+				Resolved [com.blz.emppayroll.exception.EmployeePayrollException: Plaese enter correct gender type]
+[2020-12-14T20:03:58.058Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-5] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.blz.emppayroll.model.EmployeePayroll com.blz.emppayroll.controller.EmployeePayrollController.createEmployee(com.blz.emppayroll.model.EmployeePayroll): [Field error in object 'employeePayroll' on field 'salary': rejected value [600]; codes [Min.employeePayroll.salary,Min.salary,Min.long,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.salary,salary]; arguments []; default message [salary],1000]; default message [Min. required Salary is 1000]] ]
+[2020-12-14T20:04:08.008Z] [com.blz.emppayroll.controller.EmployeePayrollController] [http-nio-8080-exec-9] [48] [INFO ]
+				Requesting to ADD employee payroll data with name Last
+[2020-12-14T20:04:08.008Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-9] [207] [WARN ]
+				Resolved [com.blz.emppayroll.exception.EmployeePayrollException: Plaese enter correct gender type]
+[2020-12-14T20:10:09.009Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-13] [218] [INFO ]
+				Shutting down ExecutorService 'threadExecutor'
+[2020-12-14T20:10:09.009Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-13] [648] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:10:09.009Z] [com.zaxxer.hikari.HikariDataSource] [Thread-13] [350] [INFO ]
+				HikariPool-3 - Shutdown initiated...
+[2020-12-14T20:10:09.009Z] [com.zaxxer.hikari.HikariDataSource] [Thread-13] [352] [INFO ]
+				HikariPool-3 - Shutdown completed.
+[2020-12-14T20:10:09.009Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ]
+				Starting EmpPayrollWebAppApplication using Java 15 on DESKTOP-FR81GBB with PID 17464 (C:\Users\user\workspace-sts\EmpPayrollWebApp\target\classes started by user in C:\Users\user\workspace-sts\EmpPayrollWebApp)
+[2020-12-14T20:10:09.009Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-12-14T20:10:10.010Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-14T20:10:10.010Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ]
+				Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[2020-12-14T20:10:10.010Z] [org.springframework.boot.SpringApplication] [restartedMain] [856] [ERROR]
+				Application run failed
+java.lang.IllegalStateException: Cannot load configuration class: com.blz.emppayroll.service.EmployeePayrollService
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:412)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanFactory(ConfigurationClassPostProcessor.java:273)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:299)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:134)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:751)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:569)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.blz.emppayroll.EmpPayrollWebAppApplication.main(EmpPayrollWebAppApplication.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.ClassFormatError: Duplicate method name "updateEmployeePayrollData" with signature "(ILEmployeePayroll;)LEmployeePayroll;" in class file com/blz/emppayroll/service/EmployeePayrollService
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:514)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:422)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:416)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:415)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.findClass(RestartClassLoader.java:159)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:141)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:284)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:469)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:408)
+	... 18 common frames omitted
+[2020-12-14T20:10:10.010Z] [org.springframework.boot.SpringApplication] [restartedMain] [828] [WARN ]
+				Unable to close ApplicationContext
+org.springframework.beans.factory.CannotLoadBeanClassException: Error loading class [com.blz.emppayroll.service.EmployeePayrollService] for bean with name 'employeePayrollService' defined in file [C:\Users\user\workspace-sts\EmpPayrollWebApp\target\classes\com\blz\emppayroll\service\EmployeePayrollService.class]: problem with class file or dependent class; nested exception is java.lang.ClassFormatError: Duplicate method name "updateEmployeePayrollData" with signature "(ILEmployeePayroll;)LEmployeePayroll;" in class file com/blz/emppayroll/service/EmployeePayrollService
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1540)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:693)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:663)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1665)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:570)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:667)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1307)
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:899)
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:887)
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:874)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:815)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.blz.emppayroll.EmpPayrollWebAppApplication.main(EmpPayrollWebAppApplication.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.ClassFormatError: Duplicate method name "updateEmployeePayrollData" with signature "(ILEmployeePayroll;)LEmployeePayroll;" in class file com/blz/emppayroll/service/EmployeePayrollService
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151)
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:514)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:422)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:416)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:691)
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:415)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.findClass(RestartClassLoader.java:159)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:141)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:284)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:469)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1602)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1529)
+	... 21 common frames omitted
+[2020-12-14T20:10:29.029Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ]
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-14T20:10:29.029Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ]
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-14T20:10:29.029Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ]
+				Starting EmpPayrollWebAppApplication using Java 15 on DESKTOP-FR81GBB with PID 17464 (C:\Users\user\workspace-sts\EmpPayrollWebApp\target\classes started by user in C:\Users\user\workspace-sts\EmpPayrollWebApp)
+[2020-12-14T20:10:29.029Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-12-14T20:10:30.030Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-14T20:10:30.030Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ]
+				Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+[2020-12-14T20:10:30.030Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-12-14T20:10:30.030Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:10:30.030Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-12-14T20:10:30.030Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-14T20:10:30.030Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-12-14T20:10:30.030Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ]
+				Root WebApplicationContext: initialization completed in 837 ms
+[2020-12-14T20:10:30.030Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-14T20:10:30.030Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ]
+				HikariPool-4 - Starting...
+[2020-12-14T20:10:30.030Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ]
+				HikariPool-4 - Start completed.
+[2020-12-14T20:10:30.030Z] [org.hibernate.dialect.Dialect] [restartedMain] [170] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-14T20:10:30.030Z] [org.hibernate.cfg.beanvalidation.TypeSafeActivator] [restartedMain] [194] [WARN ]
+				HHH000274: Unable to apply constraints on DDL for com.blz.emppayroll.model.EmployeePayroll
+javax.validation.ValidationException: HV000084: Unable to get attribute 'regexp' from annotation com.sun.proxy.$Proxy82.
+	at org.hibernate.validator.internal.util.privilegedactions.GetAnnotationAttributes.run(GetAnnotationAttributes.java:58)
+	at org.hibernate.validator.internal.util.privilegedactions.GetAnnotationAttributes.run(GetAnnotationAttributes.java:25)
+	at org.hibernate.validator.internal.util.annotation.AnnotationDescriptor.run(AnnotationDescriptor.java:331)
+	at org.hibernate.validator.internal.util.annotation.AnnotationDescriptor.<init>(AnnotationDescriptor.java:61)
+	at org.hibernate.validator.internal.util.annotation.ConstraintAnnotationDescriptor.<init>(ConstraintAnnotationDescriptor.java:23)
+	at org.hibernate.validator.internal.metadata.provider.AnnotationMetaDataProvider.buildConstraintDescriptor(AnnotationMetaDataProvider.java:587)
+	at org.hibernate.validator.internal.metadata.provider.AnnotationMetaDataProvider.lambda$findConstraintAnnotations$0(AnnotationMetaDataProvider.java:542)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.hibernate.validator.internal.metadata.provider.AnnotationMetaDataProvider.findConstraintAnnotations(AnnotationMetaDataProvider.java:543)
+	at org.hibernate.validator.internal.metadata.provider.AnnotationMetaDataProvider.findConstraints(AnnotationMetaDataProvider.java:479)
+	at org.hibernate.validator.internal.metadata.provider.AnnotationMetaDataProvider.findConstraints(AnnotationMetaDataProvider.java:461)
+	at org.hibernate.validator.internal.metadata.provider.AnnotationMetaDataProvider.findPropertyMetaData(AnnotationMetaDataProvider.java:236)
+	at org.hibernate.validator.internal.metadata.provider.AnnotationMetaDataProvider.getFieldMetaData(AnnotationMetaDataProvider.java:229)
+	at org.hibernate.validator.internal.metadata.provider.AnnotationMetaDataProvider.retrieveBeanConfiguration(AnnotationMetaDataProvider.java:129)
+	at org.hibernate.validator.internal.metadata.provider.AnnotationMetaDataProvider.getBeanConfiguration(AnnotationMetaDataProvider.java:120)
+	at org.hibernate.validator.internal.metadata.BeanMetaDataManagerImpl.getBeanConfigurationForHierarchy(BeanMetaDataManagerImpl.java:234)
+	at org.hibernate.validator.internal.metadata.BeanMetaDataManagerImpl.createBeanMetaData(BeanMetaDataManagerImpl.java:201)
+	at org.hibernate.validator.internal.metadata.BeanMetaDataManagerImpl.getBeanMetaData(BeanMetaDataManagerImpl.java:165)
+	at org.hibernate.validator.internal.engine.ValidatorImpl.getConstraintsForClass(ValidatorImpl.java:316)
+	at org.hibernate.cfg.beanvalidation.TypeSafeActivator.applyDDL(TypeSafeActivator.java:207)
+	at org.hibernate.cfg.beanvalidation.TypeSafeActivator.applyRelationalConstraints(TypeSafeActivator.java:191)
+	at org.hibernate.cfg.beanvalidation.TypeSafeActivator.applyRelationalConstraints(TypeSafeActivator.java:150)
+	at org.hibernate.cfg.beanvalidation.TypeSafeActivator.activate(TypeSafeActivator.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.hibernate.cfg.beanvalidation.BeanValidationIntegrator.integrate(BeanValidationIntegrator.java:131)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:282)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:469)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1847)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1161)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.blz.emppayroll.EmpPayrollWebAppApplication.main(EmpPayrollWebAppApplication.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.hibernate.validator.internal.util.privilegedactions.GetAnnotationAttributes.run(GetAnnotationAttributes.java:55)
+	... 65 common frames omitted
+Caused by: java.lang.annotation.IncompleteAnnotationException: javax.validation.constraints.Pattern missing element regexp
+	at java.base/sun.reflect.annotation.AnnotationInvocationHandler.invoke(AnnotationInvocationHandler.java:85)
+	at com.sun.proxy.$Proxy82.regexp(Unknown Source)
+	... 70 common frames omitted
+[2020-12-14T20:10:30.030Z] [org.springframework.context.support.AbstractApplicationContext] [restartedMain] [596] [WARN ]
+				Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+[2020-12-14T20:10:30.030Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [350] [INFO ]
+				HikariPool-4 - Shutdown initiated...
+[2020-12-14T20:10:30.030Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [352] [INFO ]
+				HikariPool-4 - Shutdown completed.
+[2020-12-14T20:10:30.030Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Stopping service [Tomcat]
+[2020-12-14T20:10:30.030Z] [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] [restartedMain] [136] [INFO ]
+				
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-12-14T20:10:30.030Z] [org.springframework.boot.SpringApplication] [restartedMain] [856] [ERROR]
+				Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:609)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1161)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.blz.emppayroll.EmpPayrollWebAppApplication.main(EmpPayrollWebAppApplication.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1847)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 22 common frames omitted
+Caused by: org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:123)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:77)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:181)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:301)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:469)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1259)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 26 common frames omitted
+Caused by: org.hibernate.InstantiationException: could not instantiate test object : com.blz.emppayroll.model.EmployeePayroll
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:43)
+	at org.hibernate.engine.internal.UnsavedValueFactory.getUnsavedIdentifierValue(UnsavedValueFactory.java:68)
+	at org.hibernate.tuple.PropertyFactory.buildIdentifierAttribute(PropertyFactory.java:63)
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:138)
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:608)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:128)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:96)
+	... 34 common frames omitted
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:40)
+	... 45 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "Identifier (" to complete ConstructorHeaderName
+	Syntax error, insert ")" to complete ConstructorDeclaration
+	Syntax error, insert ";" to complete ConstructorDeclaration
+	Syntax error on token "=", Expression expected after this token
+
+	at com.blz.emppayroll.model.EmployeePayroll.<init>(EmployeePayroll.java:20)
+	... 51 common frames omitted
+[2020-12-14T20:14:44.044Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ]
+				Starting EmpPayrollWebAppApplication using Java 15 on DESKTOP-FR81GBB with PID 17464 (C:\Users\user\workspace-sts\EmpPayrollWebApp\target\classes started by user in C:\Users\user\workspace-sts\EmpPayrollWebApp)
+[2020-12-14T20:14:44.044Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-12-14T20:14:44.044Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-14T20:14:44.044Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ]
+				Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interfaces.
+[2020-12-14T20:14:44.044Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-12-14T20:14:44.044Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:14:44.044Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-12-14T20:14:44.044Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-14T20:14:45.045Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-12-14T20:14:45.045Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ]
+				Root WebApplicationContext: initialization completed in 703 ms
+[2020-12-14T20:14:45.045Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-14T20:14:45.045Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ]
+				HikariPool-5 - Starting...
+[2020-12-14T20:14:45.045Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ]
+				HikariPool-5 - Start completed.
+[2020-12-14T20:14:45.045Z] [org.hibernate.dialect.Dialect] [restartedMain] [170] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-14T20:14:46.046Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-14T20:14:46.046Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [434] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:14:46.046Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ]
+				LiveReload server is running on port 35729
+[2020-12-14T20:14:46.046Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ]
+				Initializing ExecutorService 'threadExecutor'
+[2020-12-14T20:14:46.046Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-14T20:14:46.046Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:14:46.046Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-14T20:14:46.046Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-12-14T20:14:46.046Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ]
+				Spring Data repositories initialized!
+[2020-12-14T20:14:46.046Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ]
+				Started EmpPayrollWebAppApplication in 2.341 seconds (JVM running for 923.886)
+[2020-12-14T20:14:46.046Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ]
+				Condition evaluation unchanged
+[2020-12-14T20:14:50.050Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-14T20:14:50.050Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-12-14T20:14:50.050Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ]
+				Completed initialization in 2 ms
+[2020-12-14T20:14:50.050Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-1] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.blz.emppayroll.model.EmployeePayroll com.blz.emppayroll.controller.EmployeePayrollController.createEmployee(com.blz.emppayroll.model.EmployeePayroll): [Field error in object 'employeePayroll' on field 'gender': rejected value [femae]; codes [Pattern.employeePayroll.gender,Pattern.gender,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.gender,gender]; arguments []; default message [gender],[Ljavax.validation.constraints.Pattern$Flag;@17f18ac0,^(?:male|Male|female|Female|Others|others)$]; default message [must match "^(?:male|Male|female|Female|Others|others)$"]] ]
+[2020-12-14T20:15:34.034Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-18] [218] [INFO ]
+				Shutting down ExecutorService 'threadExecutor'
+[2020-12-14T20:15:34.034Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-18] [648] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:15:34.034Z] [com.zaxxer.hikari.HikariDataSource] [Thread-18] [350] [INFO ]
+				HikariPool-5 - Shutdown initiated...
+[2020-12-14T20:15:34.034Z] [com.zaxxer.hikari.HikariDataSource] [Thread-18] [352] [INFO ]
+				HikariPool-5 - Shutdown completed.
+[2020-12-14T20:15:34.034Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ]
+				Starting EmpPayrollWebAppApplication using Java 15 on DESKTOP-FR81GBB with PID 17464 (C:\Users\user\workspace-sts\EmpPayrollWebApp\target\classes started by user in C:\Users\user\workspace-sts\EmpPayrollWebApp)
+[2020-12-14T20:15:34.034Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-12-14T20:15:35.035Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-14T20:15:35.035Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ]
+				Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+[2020-12-14T20:15:35.035Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-12-14T20:15:35.035Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:15:35.035Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-12-14T20:15:35.035Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-14T20:15:35.035Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-12-14T20:15:35.035Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ]
+				Root WebApplicationContext: initialization completed in 669 ms
+[2020-12-14T20:15:35.035Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-14T20:15:35.035Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ]
+				HikariPool-6 - Starting...
+[2020-12-14T20:15:35.035Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ]
+				HikariPool-6 - Start completed.
+[2020-12-14T20:15:35.035Z] [org.hibernate.dialect.Dialect] [restartedMain] [170] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-14T20:15:36.036Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-14T20:15:36.036Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [434] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:15:36.036Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ]
+				LiveReload server is running on port 35729
+[2020-12-14T20:15:36.036Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ]
+				Initializing ExecutorService 'threadExecutor'
+[2020-12-14T20:15:36.036Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-14T20:15:36.036Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:15:36.036Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-14T20:15:36.036Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-12-14T20:15:36.036Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ]
+				Spring Data repositories initialized!
+[2020-12-14T20:15:36.036Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ]
+				Started EmpPayrollWebAppApplication in 1.685 seconds (JVM running for 973.867)
+[2020-12-14T20:15:36.036Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ]
+				Condition evaluation unchanged
+[2020-12-14T20:15:41.041Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-14T20:15:41.041Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-12-14T20:15:41.041Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ]
+				Completed initialization in 2 ms
+[2020-12-14T20:15:41.041Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-1] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.blz.emppayroll.model.EmployeePayroll com.blz.emppayroll.controller.EmployeePayrollController.createEmployee(com.blz.emppayroll.model.EmployeePayroll): [Field error in object 'employeePayroll' on field 'gender': rejected value [femae]; codes [Pattern.employeePayroll.gender,Pattern.gender,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.gender,gender]; arguments []; default message [gender],[Ljavax.validation.constraints.Pattern$Flag;@17f18ac0,^(?:male|Male|female|Female|Others|others)$]; default message [Please enter valid gender type]] ]
+[2020-12-14T20:15:46.046Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-4] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.blz.emppayroll.model.EmployeePayroll com.blz.emppayroll.controller.EmployeePayrollController.createEmployee(com.blz.emppayroll.model.EmployeePayroll) with 2 errors: [Field error in object 'employeePayroll' on field 'salary': rejected value [600]; codes [Min.employeePayroll.salary,Min.salary,Min.long,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.salary,salary]; arguments []; default message [salary],1000]; default message [Min. required Salary is 1000]] [Field error in object 'employeePayroll' on field 'gender': rejected value [femae]; codes [Pattern.employeePayroll.gender,Pattern.gender,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.gender,gender]; arguments []; default message [gender],[Ljavax.validation.constraints.Pattern$Flag;@17f18ac0,^(?:male|Male|female|Female|Others|others)$]; default message [Please enter valid gender type]] ]
+[2020-12-14T20:15:54.054Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-6] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.blz.emppayroll.model.EmployeePayroll com.blz.emppayroll.controller.EmployeePayrollController.createEmployee(com.blz.emppayroll.model.EmployeePayroll): [Field error in object 'employeePayroll' on field 'salary': rejected value [600]; codes [Min.employeePayroll.salary,Min.salary,Min.long,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.salary,salary]; arguments []; default message [salary],1000]; default message [Min. required Salary is 1000]] ]
+[2020-12-14T20:16:01.001Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-7] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.blz.emppayroll.model.EmployeePayroll com.blz.emppayroll.controller.EmployeePayrollController.createEmployee(com.blz.emppayroll.model.EmployeePayroll): [Field error in object 'employeePayroll' on field 'salary': rejected value [600]; codes [Min.employeePayroll.salary,Min.salary,Min.long,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.salary,salary]; arguments []; default message [salary],1000]; default message [Min. required Salary is 1000]] ]
+[2020-12-14T20:16:03.003Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-9] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.blz.emppayroll.model.EmployeePayroll com.blz.emppayroll.controller.EmployeePayrollController.createEmployee(com.blz.emppayroll.model.EmployeePayroll) with 2 errors: [Field error in object 'employeePayroll' on field 'gender': rejected value [ale]; codes [Pattern.employeePayroll.gender,Pattern.gender,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.gender,gender]; arguments []; default message [gender],[Ljavax.validation.constraints.Pattern$Flag;@17f18ac0,^(?:male|Male|female|Female|Others|others)$]; default message [Please enter valid gender type]] [Field error in object 'employeePayroll' on field 'salary': rejected value [600]; codes [Min.employeePayroll.salary,Min.salary,Min.long,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.salary,salary]; arguments []; default message [salary],1000]; default message [Min. required Salary is 1000]] ]
+[2020-12-14T20:16:06.006Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-2] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.blz.emppayroll.model.EmployeePayroll com.blz.emppayroll.controller.EmployeePayrollController.createEmployee(com.blz.emppayroll.model.EmployeePayroll): [Field error in object 'employeePayroll' on field 'salary': rejected value [600]; codes [Min.employeePayroll.salary,Min.salary,Min.long,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.salary,salary]; arguments []; default message [salary],1000]; default message [Min. required Salary is 1000]] ]
+[2020-12-14T20:16:21.021Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(38)-127.0.0.1] [159] [INFO ]
+				Application shutdown requested.
+[2020-12-14T20:16:21.021Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(38)-127.0.0.1] [218] [INFO ]
+				Shutting down ExecutorService 'threadExecutor'
+[2020-12-14T20:16:21.021Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(38)-127.0.0.1] [648] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:16:21.021Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(38)-127.0.0.1] [350] [INFO ]
+				HikariPool-6 - Shutdown initiated...
+[2020-12-14T20:16:21.021Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(38)-127.0.0.1] [352] [INFO ]
+				HikariPool-6 - Shutdown completed.
+[2020-12-14T20:21:56.056Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ]
+				HV000001: Hibernate Validator 6.1.6.Final
+[2020-12-14T20:21:56.056Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ]
+				Starting EmpPayrollWebAppApplication using Java 15 on DESKTOP-FR81GBB with PID 9124 (C:\Users\user\workspace-sts\EmpPayrollWebApp\target\classes started by user in C:\Users\user\workspace-sts\EmpPayrollWebApp)
+[2020-12-14T20:21:56.056Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-12-14T20:21:56.056Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ]
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-14T20:21:56.056Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ]
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-14T20:21:57.057Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-14T20:21:58.058Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ]
+				Finished Spring Data repository scanning in 77 ms. Found 1 JPA repository interfaces.
+[2020-12-14T20:21:59.059Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-12-14T20:21:59.059Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:21:59.059Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-12-14T20:21:59.059Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-14T20:21:59.059Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-12-14T20:21:59.059Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ]
+				Root WebApplicationContext: initialization completed in 2383 ms
+[2020-12-14T20:21:59.059Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-14T20:21:59.059Z] [org.hibernate.Version] [restartedMain] [44] [INFO ]
+				HHH000412: Hibernate ORM core version 5.4.23.Final
+[2020-12-14T20:21:59.059Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ]
+				HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2020-12-14T20:21:59.059Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ]
+				HikariPool-1 - Starting...
+[2020-12-14T20:22:00.000Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ]
+				HikariPool-1 - Start completed.
+[2020-12-14T20:22:00.000Z] [org.hibernate.dialect.Dialect] [restartedMain] [170] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-14T20:22:02.002Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-14T20:22:02.002Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [434] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:22:02.002Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ]
+				LiveReload server is running on port 35729
+[2020-12-14T20:22:02.002Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ]
+				Initializing ExecutorService 'threadExecutor'
+[2020-12-14T20:22:02.002Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-14T20:22:03.003Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:22:03.003Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-14T20:22:03.003Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-12-14T20:22:03.003Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ]
+				Spring Data repositories initialized!
+[2020-12-14T20:22:03.003Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ]
+				Started EmpPayrollWebAppApplication in 7.49 seconds (JVM running for 9.175)
+[2020-12-14T20:22:29.029Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-14T20:22:29.029Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-12-14T20:22:29.029Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ]
+				Completed initialization in 1 ms
+[2020-12-14T20:22:29.029Z] [com.blz.emppayroll.controller.EmployeePayrollController] [http-nio-8080-exec-2] [41] [INFO ]
+				Requesting to GET employee payroll data with Id 2
+[2020-12-14T20:22:29.029Z] [com.blz.emppayroll.service.EmployeePayrollService] [http-nio-8080-exec-2] [27] [INFO ]
+				Employee Payroll data fetched with empId: 2
+[2020-12-14T20:22:34.034Z] [com.blz.emppayroll.controller.EmployeePayrollController] [http-nio-8080-exec-3] [41] [INFO ]
+				Requesting to GET employee payroll data with Id 21
+[2020-12-14T20:22:34.034Z] [com.blz.emppayroll.service.EmployeePayrollService] [http-nio-8080-exec-3] [27] [INFO ]
+				Employee Payroll data fetched with empId: 21
+[2020-12-14T20:22:37.037Z] [com.blz.emppayroll.controller.EmployeePayrollController] [http-nio-8080-exec-4] [41] [INFO ]
+				Requesting to GET employee payroll data with Id 210
+[2020-12-14T20:22:37.037Z] [com.blz.emppayroll.service.EmployeePayrollService] [http-nio-8080-exec-4] [27] [INFO ]
+				Employee Payroll data fetched with empId: 210
+[2020-12-14T20:22:52.052Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-5] [207] [WARN ]
+				Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public com.blz.emppayroll.model.EmployeePayroll com.blz.emppayroll.controller.EmployeePayrollController.updateEmployeePayrollData(int,com.blz.emppayroll.model.EmployeePayroll) with 2 errors: [Field error in object 'employeePayroll' on field 'name': rejected value [Su]; codes [Pattern.employeePayroll.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.name,name]; arguments []; default message [name],[Ljavax.validation.constraints.Pattern$Flag;@129621f,^[A-Z]{1}[a-z]{2,}\s?([A-Z]{1}[a-z]{1,}\s?){0,2}$]; default message [Please enter correct name in correct format. Eg. John Smith]] [Field error in object 'employeePayroll' on field 'salary': rejected value [50]; codes [Min.employeePayroll.salary,Min.salary,Min.long,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeePayroll.salary,salary]; arguments []; default message [salary],1000]; default message [Min. required Salary is 1000]] ]
+[2020-12-14T20:23:05.005Z] [com.blz.emppayroll.controller.EmployeePayrollController] [http-nio-8080-exec-6] [54] [INFO ]
+				Requesting to UPDATE employee payroll data with Id 280
+[2020-12-14T20:23:05.005Z] [com.blz.emppayroll.service.EmployeePayrollService] [http-nio-8080-exec-6] [39] [INFO ]
+				Employee Payroll data updated with empId: 280
+[2020-12-14T20:23:27.027Z] [com.blz.emppayroll.controller.EmployeePayrollController] [http-nio-8080-exec-8] [54] [INFO ]
+				Requesting to UPDATE employee payroll data with Id 280
+[2020-12-14T20:23:27.027Z] [com.blz.emppayroll.service.EmployeePayrollService] [http-nio-8080-exec-8] [39] [INFO ]
+				Employee Payroll data updated with empId: 280
+[2020-12-14T20:23:40.040Z] [com.blz.emppayroll.controller.EmployeePayrollController] [http-nio-8080-exec-9] [60] [INFO ]
+				Requesting to DELETE employee payroll data with Id 11
+[2020-12-14T20:23:40.040Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-9] [175] [ERROR]
+				Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.EmptyResultDataAccessException: No class com.blz.emppayroll.model.EmployeePayroll entity with id 11 exists!] with root cause
+org.springframework.dao.EmptyResultDataAccessException: No class com.blz.emppayroll.model.EmployeePayroll entity with id 11 exists!
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.lambda$deleteById$0(SimpleJpaRepository.java:176)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:401)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.deleteById(SimpleJpaRepository.java:175)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:524)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:531)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:156)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:131)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:134)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy104.deleteById(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208)
+	at com.sun.proxy.$Proxy92.deleteById(Unknown Source)
+	at com.blz.emppayroll.service.EmployeePayrollService.deleteEmployeePayrollData(EmployeePayrollService.java:45)
+	at com.blz.emppayroll.controller.EmployeePayrollController.deleteEmployeePayrollData(EmployeePayrollController.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[2020-12-14T20:23:53.053Z] [com.blz.emppayroll.controller.EmployeePayrollController] [http-nio-8080-exec-1] [60] [INFO ]
+				Requesting to DELETE employee payroll data with Id 1100
+[2020-12-14T20:23:53.053Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [175] [ERROR]
+				Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.EmptyResultDataAccessException: No class com.blz.emppayroll.model.EmployeePayroll entity with id 1100 exists!] with root cause
+org.springframework.dao.EmptyResultDataAccessException: No class com.blz.emppayroll.model.EmployeePayroll entity with id 1100 exists!
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.lambda$deleteById$0(SimpleJpaRepository.java:176)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:401)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.deleteById(SimpleJpaRepository.java:175)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:524)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:531)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:156)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:131)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:134)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy104.deleteById(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208)
+	at com.sun.proxy.$Proxy92.deleteById(Unknown Source)
+	at com.blz.emppayroll.service.EmployeePayrollService.deleteEmployeePayrollData(EmployeePayrollService.java:45)
+	at com.blz.emppayroll.controller.EmployeePayrollController.deleteEmployeePayrollData(EmployeePayrollController.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[2020-12-14T20:29:10.010Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-4] [218] [INFO ]
+				Shutting down ExecutorService 'threadExecutor'
+[2020-12-14T20:29:10.010Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-4] [648] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:29:10.010Z] [com.zaxxer.hikari.HikariDataSource] [Thread-4] [350] [INFO ]
+				HikariPool-1 - Shutdown initiated...
+[2020-12-14T20:29:10.010Z] [com.zaxxer.hikari.HikariDataSource] [Thread-4] [352] [INFO ]
+				HikariPool-1 - Shutdown completed.
+[2020-12-14T20:29:10.010Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ]
+				Starting EmpPayrollWebAppApplication using Java 15 on DESKTOP-FR81GBB with PID 9124 (C:\Users\user\workspace-sts\EmpPayrollWebApp\target\classes started by user in C:\Users\user\workspace-sts\EmpPayrollWebApp)
+[2020-12-14T20:29:10.010Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-12-14T20:29:11.011Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-14T20:29:11.011Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ]
+				Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interfaces.
+[2020-12-14T20:29:11.011Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-12-14T20:29:11.011Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:29:11.011Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-12-14T20:29:11.011Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-14T20:29:11.011Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-12-14T20:29:11.011Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ]
+				Root WebApplicationContext: initialization completed in 773 ms
+[2020-12-14T20:29:11.011Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-14T20:29:11.011Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ]
+				HikariPool-2 - Starting...
+[2020-12-14T20:29:11.011Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ]
+				HikariPool-2 - Start completed.
+[2020-12-14T20:29:11.011Z] [org.hibernate.dialect.Dialect] [restartedMain] [170] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-14T20:29:12.012Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-14T20:29:12.012Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [434] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:29:12.012Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ]
+				LiveReload server is running on port 35729
+[2020-12-14T20:29:12.012Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ]
+				Initializing ExecutorService 'threadExecutor'
+[2020-12-14T20:29:12.012Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-14T20:29:12.012Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:29:12.012Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-14T20:29:12.012Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-12-14T20:29:12.012Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ]
+				Spring Data repositories initialized!
+[2020-12-14T20:29:12.012Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ]
+				Started EmpPayrollWebAppApplication in 1.915 seconds (JVM running for 438.342)
+[2020-12-14T20:29:12.012Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ]
+				Condition evaluation unchanged
+[2020-12-14T20:29:13.013Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(16)-127.0.0.1] [159] [INFO ]
+				Application shutdown requested.
+[2020-12-14T20:29:13.013Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(16)-127.0.0.1] [218] [INFO ]
+				Shutting down ExecutorService 'threadExecutor'
+[2020-12-14T20:29:13.013Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(16)-127.0.0.1] [648] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:29:13.013Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(16)-127.0.0.1] [350] [INFO ]
+				HikariPool-2 - Shutdown initiated...
+[2020-12-14T20:29:13.013Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(16)-127.0.0.1] [352] [INFO ]
+				HikariPool-2 - Shutdown completed.
+[2020-12-14T20:31:48.048Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ]
+				HV000001: Hibernate Validator 6.1.6.Final
+[2020-12-14T20:31:48.048Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ]
+				Starting EmpPayrollWebAppApplication using Java 15 on DESKTOP-FR81GBB with PID 17264 (C:\Users\user\workspace-sts\EmpPayrollWebApp\target\classes started by user in C:\Users\user\workspace-sts\EmpPayrollWebApp)
+[2020-12-14T20:31:48.048Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-12-14T20:31:48.048Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ]
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-14T20:31:48.048Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ]
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-14T20:31:50.050Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-14T20:31:50.050Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ]
+				Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interfaces.
+[2020-12-14T20:31:51.051Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-12-14T20:31:51.051Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:31:51.051Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-12-14T20:31:51.051Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-14T20:31:51.051Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-12-14T20:31:51.051Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ]
+				Root WebApplicationContext: initialization completed in 2551 ms
+[2020-12-14T20:31:51.051Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-14T20:31:51.051Z] [org.hibernate.Version] [restartedMain] [44] [INFO ]
+				HHH000412: Hibernate ORM core version 5.4.23.Final
+[2020-12-14T20:31:52.052Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ]
+				HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2020-12-14T20:31:52.052Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ]
+				HikariPool-1 - Starting...
+[2020-12-14T20:31:52.052Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ]
+				HikariPool-1 - Start completed.
+[2020-12-14T20:31:53.053Z] [org.hibernate.dialect.Dialect] [restartedMain] [170] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-14T20:31:54.054Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-14T20:31:54.054Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [434] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:31:54.054Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ]
+				LiveReload server is running on port 35729
+[2020-12-14T20:31:55.055Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ]
+				Initializing ExecutorService 'threadExecutor'
+[2020-12-14T20:31:55.055Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-14T20:31:55.055Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:31:55.055Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-14T20:31:55.055Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-12-14T20:31:56.056Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ]
+				Spring Data repositories initialized!
+[2020-12-14T20:31:56.056Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ]
+				Started EmpPayrollWebAppApplication in 8.088 seconds (JVM running for 10.258)
+[2020-12-14T20:31:58.058Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-14T20:31:58.058Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-12-14T20:31:58.058Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ]
+				Completed initialization in 2 ms
+[2020-12-14T20:31:58.058Z] [com.blz.emppayroll.controller.EmployeePayrollController] [http-nio-8080-exec-2] [60] [INFO ]
+				Requesting to DELETE employee payroll data with Id 1100
+[2020-12-14T20:31:58.058Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [175] [ERROR]
+				Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.EmptyResultDataAccessException: No class com.blz.emppayroll.model.EmployeePayroll entity with id 1100 exists!] with root cause
+org.springframework.dao.EmptyResultDataAccessException: No class com.blz.emppayroll.model.EmployeePayroll entity with id 1100 exists!
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.lambda$deleteById$0(SimpleJpaRepository.java:176)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:401)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.deleteById(SimpleJpaRepository.java:175)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:524)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:531)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:156)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:131)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:134)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy104.deleteById(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:208)
+	at com.sun.proxy.$Proxy92.deleteById(Unknown Source)
+	at com.blz.emppayroll.service.EmployeePayrollService.deleteEmployeePayrollData(EmployeePayrollService.java:48)
+	at com.blz.emppayroll.controller.EmployeePayrollController.deleteEmployeePayrollData(EmployeePayrollController.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[2020-12-14T20:32:10.010Z] [com.blz.emppayroll.controller.EmployeePayrollController] [http-nio-8080-exec-3] [54] [INFO ]
+				Requesting to UPDATE employee payroll data with Id 280
+[2020-12-14T20:32:10.010Z] [com.blz.emppayroll.service.EmployeePayrollService] [http-nio-8080-exec-3] [42] [INFO ]
+				Employee Payroll data updated with empId: 280
+[2020-12-14T20:32:27.027Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-4] [218] [INFO ]
+				Shutting down ExecutorService 'threadExecutor'
+[2020-12-14T20:32:27.027Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-4] [648] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:32:27.027Z] [com.zaxxer.hikari.HikariDataSource] [Thread-4] [350] [INFO ]
+				HikariPool-1 - Shutdown initiated...
+[2020-12-14T20:32:27.027Z] [com.zaxxer.hikari.HikariDataSource] [Thread-4] [352] [INFO ]
+				HikariPool-1 - Shutdown completed.
+[2020-12-14T20:32:27.027Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ]
+				Starting EmpPayrollWebAppApplication using Java 15 on DESKTOP-FR81GBB with PID 17264 (C:\Users\user\workspace-sts\EmpPayrollWebApp\target\classes started by user in C:\Users\user\workspace-sts\EmpPayrollWebApp)
+[2020-12-14T20:32:27.027Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-12-14T20:32:28.028Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-14T20:32:28.028Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ]
+				Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+[2020-12-14T20:32:28.028Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-12-14T20:32:28.028Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:32:28.028Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-12-14T20:32:28.028Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-14T20:32:28.028Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-12-14T20:32:28.028Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ]
+				Root WebApplicationContext: initialization completed in 846 ms
+[2020-12-14T20:32:28.028Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-14T20:32:28.028Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ]
+				HikariPool-2 - Starting...
+[2020-12-14T20:32:28.028Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ]
+				HikariPool-2 - Start completed.
+[2020-12-14T20:32:28.028Z] [org.hibernate.dialect.Dialect] [restartedMain] [170] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-14T20:32:29.029Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-14T20:32:29.029Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [434] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:32:29.029Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ]
+				LiveReload server is running on port 35729
+[2020-12-14T20:32:29.029Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ]
+				Initializing ExecutorService 'threadExecutor'
+[2020-12-14T20:32:29.029Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-14T20:32:29.029Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:32:29.029Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-14T20:32:29.029Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-12-14T20:32:29.029Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ]
+				Spring Data repositories initialized!
+[2020-12-14T20:32:29.029Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ]
+				Started EmpPayrollWebAppApplication in 2.051 seconds (JVM running for 43.541)
+[2020-12-14T20:32:29.029Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ]
+				Condition evaluation unchanged
+[2020-12-14T20:32:33.033Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-14T20:32:33.033Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-12-14T20:32:33.033Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ]
+				Completed initialization in 1 ms
+[2020-12-14T20:32:33.033Z] [com.blz.emppayroll.controller.EmployeePayrollController] [http-nio-8080-exec-1] [54] [INFO ]
+				Requesting to UPDATE employee payroll data with Id 280
+[2020-12-14T20:32:33.033Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-1] [207] [WARN ]
+				Resolved [com.blz.emppayroll.exception.EmployeePayrollException: No employee found with that id: 280]
+[2020-12-14T20:33:04.004Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-8] [218] [INFO ]
+				Shutting down ExecutorService 'threadExecutor'
+[2020-12-14T20:33:04.004Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-8] [648] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:33:04.004Z] [com.zaxxer.hikari.HikariDataSource] [Thread-8] [350] [INFO ]
+				HikariPool-2 - Shutdown initiated...
+[2020-12-14T20:33:04.004Z] [com.zaxxer.hikari.HikariDataSource] [Thread-8] [352] [INFO ]
+				HikariPool-2 - Shutdown completed.
+[2020-12-14T20:33:04.004Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ]
+				Starting EmpPayrollWebAppApplication using Java 15 on DESKTOP-FR81GBB with PID 17264 (C:\Users\user\workspace-sts\EmpPayrollWebApp\target\classes started by user in C:\Users\user\workspace-sts\EmpPayrollWebApp)
+[2020-12-14T20:33:04.004Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-12-14T20:33:05.005Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-14T20:33:05.005Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ]
+				Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+[2020-12-14T20:33:05.005Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-12-14T20:33:05.005Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:33:05.005Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-12-14T20:33:05.005Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-14T20:33:05.005Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-12-14T20:33:05.005Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ]
+				Root WebApplicationContext: initialization completed in 882 ms
+[2020-12-14T20:33:05.005Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-14T20:33:05.005Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ]
+				HikariPool-3 - Starting...
+[2020-12-14T20:33:05.005Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ]
+				HikariPool-3 - Start completed.
+[2020-12-14T20:33:05.005Z] [org.hibernate.dialect.Dialect] [restartedMain] [170] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-14T20:33:05.005Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-14T20:33:05.005Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [434] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:33:05.005Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ]
+				LiveReload server is running on port 35729
+[2020-12-14T20:33:05.005Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ]
+				Initializing ExecutorService 'threadExecutor'
+[2020-12-14T20:33:05.005Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-14T20:33:06.006Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:33:06.006Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-14T20:33:06.006Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-12-14T20:33:06.006Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ]
+				Spring Data repositories initialized!
+[2020-12-14T20:33:06.006Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ]
+				Started EmpPayrollWebAppApplication in 1.931 seconds (JVM running for 80.331)
+[2020-12-14T20:33:06.006Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ]
+				Condition evaluation unchanged
+[2020-12-14T20:33:14.014Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-13] [218] [INFO ]
+				Shutting down ExecutorService 'threadExecutor'
+[2020-12-14T20:33:14.014Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-13] [648] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:33:14.014Z] [com.zaxxer.hikari.HikariDataSource] [Thread-13] [350] [INFO ]
+				HikariPool-3 - Shutdown initiated...
+[2020-12-14T20:33:14.014Z] [com.zaxxer.hikari.HikariDataSource] [Thread-13] [352] [INFO ]
+				HikariPool-3 - Shutdown completed.
+[2020-12-14T20:33:14.014Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ]
+				Starting EmpPayrollWebAppApplication using Java 15 on DESKTOP-FR81GBB with PID 17264 (C:\Users\user\workspace-sts\EmpPayrollWebApp\target\classes started by user in C:\Users\user\workspace-sts\EmpPayrollWebApp)
+[2020-12-14T20:33:14.014Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-12-14T20:33:14.014Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-14T20:33:14.014Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ]
+				Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+[2020-12-14T20:33:14.014Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-12-14T20:33:14.014Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:33:14.014Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-12-14T20:33:14.014Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-14T20:33:14.014Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-12-14T20:33:14.014Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ]
+				Root WebApplicationContext: initialization completed in 654 ms
+[2020-12-14T20:33:14.014Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-14T20:33:14.014Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ]
+				HikariPool-4 - Starting...
+[2020-12-14T20:33:15.015Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ]
+				HikariPool-4 - Start completed.
+[2020-12-14T20:33:15.015Z] [org.hibernate.dialect.Dialect] [restartedMain] [170] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-14T20:33:15.015Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-14T20:33:15.015Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [434] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:33:15.015Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ]
+				LiveReload server is running on port 35729
+[2020-12-14T20:33:15.015Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ]
+				Initializing ExecutorService 'threadExecutor'
+[2020-12-14T20:33:15.015Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-14T20:33:15.015Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:33:15.015Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-14T20:33:15.015Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-12-14T20:33:15.015Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ]
+				Spring Data repositories initialized!
+[2020-12-14T20:33:15.015Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ]
+				Started EmpPayrollWebAppApplication in 1.487 seconds (JVM running for 89.631)
+[2020-12-14T20:33:15.015Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ]
+				Condition evaluation unchanged
+[2020-12-14T20:33:18.018Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-14T20:33:18.018Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-12-14T20:33:18.018Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ]
+				Completed initialization in 2 ms
+[2020-12-14T20:33:18.018Z] [com.blz.emppayroll.controller.EmployeePayrollController] [http-nio-8080-exec-2] [54] [INFO ]
+				Requesting to UPDATE employee payroll data with Id 280
+[2020-12-14T20:33:18.018Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-2] [207] [WARN ]
+				Resolved [com.blz.emppayroll.exception.EmployeePayrollException: No employee found with that id: 280]
+[2020-12-14T20:33:25.025Z] [com.blz.emppayroll.controller.EmployeePayrollController] [http-nio-8080-exec-3] [60] [INFO ]
+				Requesting to DELETE employee payroll data with Id 1100
+[2020-12-14T20:33:25.025Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-3] [207] [WARN ]
+				Resolved [com.blz.emppayroll.exception.EmployeePayrollException: No employee found with that id: 1100]
+[2020-12-14T20:33:43.043Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-18] [218] [INFO ]
+				Shutting down ExecutorService 'threadExecutor'
+[2020-12-14T20:33:43.043Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-18] [648] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:33:43.043Z] [com.zaxxer.hikari.HikariDataSource] [Thread-18] [350] [INFO ]
+				HikariPool-4 - Shutdown initiated...
+[2020-12-14T20:33:43.043Z] [com.zaxxer.hikari.HikariDataSource] [Thread-18] [352] [INFO ]
+				HikariPool-4 - Shutdown completed.
+[2020-12-14T20:33:43.043Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ]
+				Starting EmpPayrollWebAppApplication using Java 15 on DESKTOP-FR81GBB with PID 17264 (C:\Users\user\workspace-sts\EmpPayrollWebApp\target\classes started by user in C:\Users\user\workspace-sts\EmpPayrollWebApp)
+[2020-12-14T20:33:43.043Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-12-14T20:33:43.043Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-14T20:33:43.043Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ]
+				Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interfaces.
+[2020-12-14T20:33:43.043Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-12-14T20:33:43.043Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:33:43.043Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-12-14T20:33:43.043Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-14T20:33:43.043Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-12-14T20:33:43.043Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ]
+				Root WebApplicationContext: initialization completed in 616 ms
+[2020-12-14T20:33:43.043Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-14T20:33:43.043Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ]
+				HikariPool-5 - Starting...
+[2020-12-14T20:33:44.044Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ]
+				HikariPool-5 - Start completed.
+[2020-12-14T20:33:44.044Z] [org.hibernate.dialect.Dialect] [restartedMain] [170] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-14T20:33:44.044Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-14T20:33:44.044Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [434] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:33:44.044Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ]
+				LiveReload server is running on port 35729
+[2020-12-14T20:33:44.044Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ]
+				Initializing ExecutorService 'threadExecutor'
+[2020-12-14T20:33:44.044Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-14T20:33:44.044Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:33:44.044Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-14T20:33:44.044Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-12-14T20:33:44.044Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ]
+				Spring Data repositories initialized!
+[2020-12-14T20:33:44.044Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ]
+				Started EmpPayrollWebAppApplication in 1.498 seconds (JVM running for 118.674)
+[2020-12-14T20:33:44.044Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ]
+				Condition evaluation unchanged
+[2020-12-14T20:33:47.047Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(17)-127.0.0.1] [159] [INFO ]
+				Application shutdown requested.
+[2020-12-14T20:33:47.047Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(17)-127.0.0.1] [218] [INFO ]
+				Shutting down ExecutorService 'threadExecutor'
+[2020-12-14T20:33:47.047Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(17)-127.0.0.1] [648] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:33:47.047Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(17)-127.0.0.1] [350] [INFO ]
+				HikariPool-5 - Shutdown initiated...
+[2020-12-14T20:33:47.047Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(17)-127.0.0.1] [352] [INFO ]
+				HikariPool-5 - Shutdown completed.
+[2020-12-14T20:34:48.048Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ]
+				HV000001: Hibernate Validator 6.1.6.Final
+[2020-12-14T20:34:48.048Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ]
+				Starting EmpPayrollWebAppApplication using Java 15 on DESKTOP-FR81GBB with PID 960 (C:\Users\user\workspace-sts\EmpPayrollWebApp\target\classes started by user in C:\Users\user\workspace-sts\EmpPayrollWebApp)
+[2020-12-14T20:34:48.048Z] [org.springframework.boot.SpringApplication] [restartedMain] [660] [INFO ]
+				No active profile set, falling back to default profiles: default
+[2020-12-14T20:34:48.048Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ]
+				Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2020-12-14T20:34:48.048Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [255] [INFO ]
+				For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2020-12-14T20:34:49.049Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [128] [INFO ]
+				Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-12-14T20:34:49.049Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [188] [INFO ]
+				Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interfaces.
+[2020-12-14T20:34:50.050Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ]
+				Tomcat initialized with port(s): 8080 (http)
+[2020-12-14T20:34:50.050Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:34:50.050Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting service [Tomcat]
+[2020-12-14T20:34:50.050Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-12-14T20:34:50.050Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Initializing Spring embedded WebApplicationContext
+[2020-12-14T20:34:50.050Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [289] [INFO ]
+				Root WebApplicationContext: initialization completed in 2304 ms
+[2020-12-14T20:34:50.050Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ]
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-12-14T20:34:51.051Z] [org.hibernate.Version] [restartedMain] [44] [INFO ]
+				HHH000412: Hibernate ORM core version 5.4.23.Final
+[2020-12-14T20:34:51.051Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ]
+				HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2020-12-14T20:34:51.051Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ]
+				HikariPool-1 - Starting...
+[2020-12-14T20:34:52.052Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ]
+				HikariPool-1 - Start completed.
+[2020-12-14T20:34:52.052Z] [org.hibernate.dialect.Dialect] [restartedMain] [170] [INFO ]
+				HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[2020-12-14T20:34:53.053Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ]
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-12-14T20:34:53.053Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [434] [INFO ]
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:34:53.053Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ]
+				LiveReload server is running on port 35729
+[2020-12-14T20:34:53.053Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ]
+				Initializing ExecutorService 'threadExecutor'
+[2020-12-14T20:34:53.053Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [221] [WARN ]
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-12-14T20:34:54.054Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ]
+				Starting ProtocolHandler ["http-nio-8080"]
+[2020-12-14T20:34:54.054Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ]
+				Tomcat started on port(s): 8080 (http) with context path ''
+[2020-12-14T20:34:54.054Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [51] [INFO ]
+				Triggering deferred initialization of Spring Data repositories…
+[2020-12-14T20:34:54.054Z] [org.springframework.data.repository.config.DeferredRepositoryInitializationListener] [restartedMain] [55] [INFO ]
+				Spring Data repositories initialized!
+[2020-12-14T20:34:54.054Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ]
+				Started EmpPayrollWebAppApplication in 6.913 seconds (JVM running for 8.531)
+[2020-12-14T20:35:09.009Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ]
+				Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-12-14T20:35:09.009Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ]
+				Initializing Servlet 'dispatcherServlet'
+[2020-12-14T20:35:09.009Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ]
+				Completed initialization in 2 ms
+[2020-12-14T20:35:09.009Z] [com.blz.emppayroll.controller.EmployeePayrollController] [http-nio-8080-exec-2] [41] [INFO ]
+				Requesting to GET employee payroll data with Id 210
+[2020-12-14T20:35:10.010Z] [org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver] [http-nio-8080-exec-2] [207] [WARN ]
+				Resolved [com.blz.emppayroll.exception.EmployeePayrollException: No employee found with id: 210]
+[2020-12-14T20:35:19.019Z] [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [RMI TCP Connection(8)-127.0.0.1] [159] [INFO ]
+				Application shutdown requested.
+[2020-12-14T20:35:19.019Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [RMI TCP Connection(8)-127.0.0.1] [218] [INFO ]
+				Shutting down ExecutorService 'threadExecutor'
+[2020-12-14T20:35:19.019Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [RMI TCP Connection(8)-127.0.0.1] [648] [INFO ]
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-12-14T20:35:19.019Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(8)-127.0.0.1] [350] [INFO ]
+				HikariPool-1 - Shutdown initiated...
+[2020-12-14T20:35:19.019Z] [com.zaxxer.hikari.HikariDataSource] [RMI TCP Connection(8)-127.0.0.1] [352] [INFO ]
+				HikariPool-1 - Shutdown completed.

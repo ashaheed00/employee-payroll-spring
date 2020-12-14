@@ -29,6 +29,7 @@ public @Data @NoArgsConstructor class EmployeePayroll {
 	@ManyToMany(cascade = CascadeType.PERSIST)
 	private List<Department> departMent;
 
+	@Pattern(regexp = "^(?:male|Male|female|Female|Others|others)$", message = "Please enter valid gender type")
 	private String gender;
 
 	@Min(value = 1000, message = "Min. required Salary is 1000")
