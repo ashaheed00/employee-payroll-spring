@@ -17,7 +17,9 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name = "employee")
-public @Data @NoArgsConstructor class EmployeePayroll {
+@Data
+@NoArgsConstructor
+public class EmployeePayroll {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,7 +28,7 @@ public @Data @NoArgsConstructor class EmployeePayroll {
 	@Pattern(regexp = "^[A-Z]{1}[a-z]{2,}\\s?([A-Z]{1}[a-z]{1,}\\s?){0,2}$", message = "Please enter correct name in correct format. Eg. John Smith")
 	private String name;
 
-	@ManyToMany(cascade = CascadeType.PERSIST)
+	@ManyToMany(cascade = CascadeType.ALL)
 	private List<Department> departMent;
 
 	@Pattern(regexp = "^(?:male|Male|female|Female|Others|others)$", message = "Please enter valid gender type")

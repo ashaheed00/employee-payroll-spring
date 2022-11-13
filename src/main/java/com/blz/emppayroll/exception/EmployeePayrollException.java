@@ -5,7 +5,11 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-public @Getter @Setter @AllArgsConstructor @NoArgsConstructor class EmployeePayrollException extends RuntimeException {
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class EmployeePayrollException extends RuntimeException {
 
 	private static final long serialVersionUID = 1L;
 

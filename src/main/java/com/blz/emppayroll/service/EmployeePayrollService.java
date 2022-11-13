@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.blz.emppayroll.exception.EmployeePayrollException;
+import com.blz.emppayroll.model.Department;
 import com.blz.emppayroll.model.EmployeePayroll;
 import com.blz.emppayroll.repository.EmployeePayrollRepository;
 
@@ -13,6 +14,9 @@ import lombok.extern.slf4j.Slf4j;
 
 @Service
 public @Slf4j class EmployeePayrollService implements IEmployeePayrollService {
+	
+	//Singleton -- one object per application
+	//Prototype -- multiple object
 
 	@Autowired
 	EmployeePayrollRepository employeePayrollRepository;
@@ -33,6 +37,9 @@ public @Slf4j class EmployeePayrollService implements IEmployeePayrollService {
 
 	@Override
 	public EmployeePayroll createEmployeePayrollData(EmployeePayroll empPayroll) {
+		for (Department dept : empPayroll.getDepartMent()) {
+			dept.setDepartmentName(dept.getDepartmentName());
+		}
 		return employeePayrollRepository.save(empPayroll);
 	}
 
